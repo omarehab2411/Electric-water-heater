@@ -1,0 +1,273 @@
+# depslib dependency file v1.0
+1593882704 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\display.c
+	"display.h"
+	"SSD.h"
+	"tempset.h"
+	"Timer.h"
+
+1593667996 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\display.h
+
+1593660403 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\ssd.h
+	"Main.h"
+	"Port.h"
+
+1531140259 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\main.h
+	<pic16f877a.h>
+
+1593768945 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\port.h
+	"Main.h"
+
+1593882415 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\tempset.h
+	"Main.h"
+
+1593670634 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\timer.h
+	"Main.h"
+
+1593944872 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\main.c
+	"Main.h"
+	"SW.h"
+	"tempset.h"
+	"Timer.h"
+	"SSD.h"
+	"onoff.h"
+	"display.h"
+	"lm35.h"
+	"heatercooler.h"
+	"led.h"
+	"eepromi2c.h"
+
+1593644928 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\sw.h
+
+1593663789 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\onoff.h
+
+1593944665 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\onoff.c
+	"onoff.h"
+	"SW.h"
+	"SSD.h"
+	"Timer.h"
+	"tempset.h"
+	"eepromint.h"
+	"Main.h"
+	"eepromi2c.h"
+
+1593670629 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\ssd.c
+	"Main.h"
+	"Port.h"
+	"Timer.h"
+	"SSD.h"
+	"onoff.h"
+
+1593657943 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\sw.c
+	"Main.h"
+	"Timer.h"
+	"SW.h"
+	"Port.h"
+
+1593944526 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\tempset.c
+	"tempset.h"
+	"SW.h"
+	"Timer.h"
+	"Main.h"
+	"SSD.h"
+	"eepromint.h"
+	"eepromi2c.h"
+
+1593882342 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\timer.c
+	"Main.h"
+	"Timer.h"
+	"SW.h"
+	"tempset.h"
+	"SSD.h"
+	"onoff.h"
+	"display.h"
+	"lm35.h"
+	"heatercooler.h"
+	"led.h"
+
+1593764771 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\adc.c
+	"adc.h"
+	"port.h"
+
+1593764571 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\adc.h
+	"Main.h"
+
+1593882038 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\lm35.c
+	"lm35.h"
+	"adc.h"
+	"Main.h"
+	"port.h"
+	"Timer.h"
+	"SSD.h"
+
+1593772982 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\lm35.h
+	"Main.h"
+
+1593775000 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\heatercooler.h
+
+1593776881 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\heatercooler.c
+	"heatercooler.h"
+	"Main.h"
+	"lm35.h"
+	"Timer.h"
+	"tempset.h"
+
+1593882202 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\led.c
+	"led.h"
+	"Main.h"
+	"Timer.h"
+	"heatercooler.h"
+
+1593777242 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\led.h
+
+1593281736 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eeprom_ext.c
+	"i2c.h"
+	"eeprom_ext.h"
+
+1593926238 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\i2c.h
+	"Main.h"
+
+1593281736 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eeprom_ext.h
+	<pic16f877a.h>
+
+1593926281 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\i2c.c
+	"i2c.h"
+
+1593281736 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eeprom.c
+	"eeprom.h"
+
+1593281736 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eeprom.h
+	<pic16f877a.h>
+
+1593925755 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\e2promint.c
+	"Main.h"
+	"e2prom.h"
+
+1593925710 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\e2prom.h
+
+1593926659 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\mix.c
+	"mix.h"
+
+1593926628 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\mix.h
+	"Main.h"
+
+1593944312 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eepromi2c.c
+	"eepromi2c.h"
+
+1593944347 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eepromi2c.h
+	"Main.h"
+
+1593938917 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eepromint.c
+	"eepromint.h"
+	"Main.h"
+
+1593938854 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\heatertest\eepromint.h
+
+1593764771 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\adc.c
+	"adc.h"
+	"port.h"
+
+1593764571 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\adc.h
+	"Main.h"
+
+1531140259 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\main.h
+	<pic16f877a.h>
+
+1593768945 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\port.h
+	"Main.h"
+
+1593882704 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\display.c
+	"display.h"
+	"SSD.h"
+	"tempset.h"
+	"Timer.h"
+
+1593667996 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\display.h
+
+1593660403 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\ssd.h
+	"Main.h"
+	"Port.h"
+
+1593882415 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\tempset.h
+	"Main.h"
+
+1593670634 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\timer.h
+	"Main.h"
+
+1593945076 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\eepromi2c.c
+	"eepromi2c.h"
+
+1593944347 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\eepromi2c.h
+	"Main.h"
+
+1593938917 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\eepromint.c
+	"eepromint.h"
+	"Main.h"
+
+1593938854 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\eepromint.h
+
+1593776881 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\heatercooler.c
+	"heatercooler.h"
+	"Main.h"
+	"lm35.h"
+	"Timer.h"
+	"tempset.h"
+
+1593775000 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\heatercooler.h
+
+1593772982 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\lm35.h
+	"Main.h"
+
+1593882202 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\led.c
+	"led.h"
+	"Main.h"
+	"Timer.h"
+	"heatercooler.h"
+
+1593777242 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\led.h
+
+1593882038 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\lm35.c
+	"lm35.h"
+	"adc.h"
+	"Main.h"
+	"port.h"
+	"Timer.h"
+	"SSD.h"
+
+1593670629 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\ssd.c
+	"Main.h"
+	"Port.h"
+	"Timer.h"
+	"SSD.h"
+	"onoff.h"
+
+1593663789 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\onoff.h
+
+1593657943 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\sw.c
+	"Main.h"
+	"Timer.h"
+	"SW.h"
+	"Port.h"
+
+1593644928 c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\sw.h
+
+1593944526 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\tempset.c
+	"tempset.h"
+	"SW.h"
+	"Timer.h"
+	"Main.h"
+	"SSD.h"
+	"eepromint.h"
+	"eepromi2c.h"
+
+1593882342 source:c:\users\omar ehab\desktop\embedded_amrali_courses\electrical heater\omar ehab abdelaziz\omar ehab_heater\timer.c
+	"Main.h"
+	"Timer.h"
+	"SW.h"
+	"tempset.h"
+	"SSD.h"
+	"onoff.h"
+	"display.h"
+	"lm35.h"
+	"heatercooler.h"
+	"led.h"
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="heatertest" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/heatertest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--opt-code-size" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="Main.h" />
+		<Unit filename="Port.h" />
+		<Unit filename="SSD.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SSD.h" />
+		<Unit filename="SW.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SW.h" />
+		<Unit filename="Timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Timer.h" />
+		<Unit filename="adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="adc.h" />
+		<Unit filename="display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display.h" />
+		<Unit filename="eepromi2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eepromi2c.h" />
+		<Unit filename="eepromint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eepromint.h" />
+		<Unit filename="heatercooler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="heatercooler.h" />
+		<Unit filename="led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="led.h" />
+		<Unit filename="lm35.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lm35.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="onoff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="onoff.h" />
+		<Unit filename="tempset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tempset.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
